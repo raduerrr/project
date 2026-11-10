@@ -174,7 +174,7 @@
     submitBtn.classList.add('loading');
 
     /* Сервис сохранения форм (форма из предыдущих заданий). */
-    fetch('https://formcarry.com/s/ГОВОРИТЕ-ВАШ-ФОРМКЕЙ', {
+    fetch('https://formcarry.com/s/bVJ9YfziBuG', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
       body: JSON.stringify({
